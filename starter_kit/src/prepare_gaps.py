@@ -57,7 +57,7 @@ def prepare_gaps(source: Path, output: Path, start_frame: int = 40) -> list[Path
         if not fields or "frame" not in fields:
             raise ValueError("В measurements.csv нужен столбец frame")
         rows = list(reader)
-    # Проверяем номера до создания выходных файлов.
+
     frame_numbers = [int(row["frame"]) for row in rows]
     if any(frame < 1 or frame > info.frames for frame in frame_numbers):
         raise ValueError("Номер кадра в measurements.csv выходит за границы сцены")
