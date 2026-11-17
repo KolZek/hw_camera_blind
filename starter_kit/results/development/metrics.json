@@ -1,0 +1,16 @@
+{
+  "matched_boxes": 1102,
+  "gt_boxes": 1116,
+  "center_recall": 0.9875,
+  "mean_center_error": 7.278,
+  "id_switches": 12,
+  "lost_gt_tracks": 0,
+  "expected_entered": 3,
+  "expected_exited": 3,
+  "entry_count_error": 2,
+  "exit_count_error": 2,
+  "reported_entered": 5,
+  "reported_exited": 5,
+  "reported_current": 0,
+  "reported_recovered_tracks": 6
+}

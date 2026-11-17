@@ -1,0 +1,11 @@
+frame,track_id,event
+102,3,entered
+103,3,exited
+108,1,entered
+112,1,exited
+115,2,exited
+116,2,entered
+142,7,entered
+144,7,exited
+146,9,exited
+147,9,entered
